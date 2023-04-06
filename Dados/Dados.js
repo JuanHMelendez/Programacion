@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var rls = require("readline-sync");
+var cantidadDados;
+var caraDados = 6;
+cantidadDados = rls.questionInt("Ingrese cantidad de dados");
+var denominador = Math.pow(caraDados, cantidadDados);
+console.log("Denominador: ", denominador);
+var probabilidadTodosSeis = 1 / denominador;
+console.log(probabilidadTodosSeis * 100, " %");
