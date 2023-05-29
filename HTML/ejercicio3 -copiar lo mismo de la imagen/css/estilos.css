@@ -1,0 +1,164 @@
+body{
+    width: 55%;
+}
+.encabezado {
+    display: flex;
+	justify-content: space-between;
+    background-color: gray;
+    flex-direction: column;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 4px;
+    font-family: sans-serif;
+    border-color: black;
+    border: solid;
+    
+    	
+}
+
+.contenedorDiv {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+
+    
+   
+}
+
+.logo {
+    background-color: blue; 
+    border: solid;
+    width: 18%;
+    color: white;
+    border-color: black;
+    
+}
+
+.menu1 {
+    background-color: green;
+    width: 40%;
+    border: solid;
+    color: white;
+    border-color: black;
+    
+}
+
+.menu2 {
+    background-color: brown;
+    width: 70%;
+    border: solid;
+    color: white;
+    border-color: black;
+    
+}
+
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 5px;
+    
+    
+
+}
+
+.divIzq {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding:  5px;
+    width: 30%;
+    height: 190px;
+    border-radius: 4px;
+    border: solid;
+    border-color: black;
+
+}
+
+.divCentro {
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    width: 30%;
+    border-radius: 4px;
+    border: solid;
+    border-color: black;
+}
+
+.divDere {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    width: 30%;
+    border-radius: 4px;
+    border: solid;
+    border-color: black;
+}
+
+.contenedor3 {
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+
+.divIzq2 {
+width: 65%;
+background-color: rgb(1, 77, 1);
+color: white;
+padding-top: 4px;
+height: 150px;
+border-radius: 4px;
+border: solid;
+border-color: black;
+
+}
+
+.divDere2 {
+width: 30%;
+background-color: rgb(174, 113, 0);
+color: white;
+padding-top: 4px;
+border-radius: 4px;
+border: solid;
+border-color: black;
+padding: 5px;
+
+}
+
+.contenedor4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    border-radius: 4px;
+    border: solid;
+    height: 70px;
+    margin-top: 6px;
+
+}
+
+.divPie {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+
+
+.divElemento {
+display: flex;
+align-items: flex-end;
+text-align: center;
+background-color: blue;
+height: 20px;
+border-radius: 4px;
+border: solid;
+border-color: black;
+color: white;
+margin-top: 30px;
+margin-right: 17px;
+}
