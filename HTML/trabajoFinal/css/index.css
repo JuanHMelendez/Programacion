@@ -46,6 +46,12 @@ body {
  
 }
 
+.nav-link {
+  text-decoration: none;
+  color:  #3a5a40;
+
+}
+
 .navbar-brand {
     margin-left: 3px;
     align-items: flex-start;

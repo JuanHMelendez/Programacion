@@ -1,7 +1,6 @@
 body {
-    background-color: #dad7cd ;
+    background-color: #dad7cd;
 }
-
 
 .navbar {
     display: flex;
@@ -9,7 +8,6 @@ body {
     font-family:Arial, Helvetica, sans-serif;
   
  }
- 
  
  .navbar-brand {
      margin-left: 3px;
@@ -30,31 +28,42 @@ body {
  }
 
 
-.contenedor-form {
-    display: flex;
-    justify-content: center;
-    
-
-}
-
-.titulo-form {
-    display: flex;
-    justify-content: center;
-
+.completed {
+    background-color: green;
 }
 
 
+.contedor-todolist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 30%;
+    background-color: #3a5a40;
+    height: 50vh;
+}
 
- footer {
-    background-color: #588157;
-    position: fixed;
-    bottom: 0;
-    z-index: 999999;
-    width: 100%;
- }
+button {
+    background-color:#588157;
+}
 
 
- .home {
+#taskInput {
+    width: 60%;
+
+}
+
+.boton-eli {
+    margin-left: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.home {
     display: flex;
     background-color: #588157;
     border-radius: 5px;
@@ -70,3 +79,12 @@ body {
     background-color: green;
     border-radius: 4px;
 }
+
+
+footer {
+    background-color: #588157;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
+    width: 100%;
+ }

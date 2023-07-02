@@ -4,6 +4,7 @@ formulario.addEventListener ("submit", handlesumit);
 
 function handlesumit(event) {
     event.preventDefault();
+    
     const user = {
         nombre: "",
         apellido: "",
